@@ -83,7 +83,7 @@ export const getPost=(search='',page=1)=>async(dispatch)=>{
         let price=[0,1800]
 
 
-        let link = `/api/v1/getpost?keyword=${search}&page=${page}`;
+        let link = `https://hotel-booking-app-ashen.vercel.app/api/v1/getpost?keyword=${search}&page=${page}`;
         
     //   if (search) {
     //     console.log(search)
